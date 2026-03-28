@@ -1,0 +1,57 @@
+{
+  "success": true,
+  "request_id": "550e8400-e29b-41d4-a716-446655440000",
+  "timestamp": "2026-03-28T12:00:00.000Z",
+  "result": {
+    "likely_animal_name": "Red Fox",
+    "scientific_name": "Vulpes vulpes",
+    "category": "mammal",
+    "confidence_score": 0.87,
+    "possible_alternatives": [
+      {
+        "name": "Gray Fox",
+        "scientific_name": "Urocyon cinereoargenteus",
+        "confidence_score": 0.19
+      },
+      {
+        "name": "Kit Fox",
+        "scientific_name": "Vulpes macrotis",
+        "confidence_score": 0.08
+      }
+    ],
+    "visible_attributes": [
+      "reddish-orange coat",
+      "pointed ears",
+      "long bushy tail with white tip",
+      "black legs",
+      "narrow muzzle",
+      "visible limp in right front leg",
+      "matted fur near hindquarters"
+    ],
+    "taxonomic_fallback": {
+      "species": "Vulpes vulpes",
+      "genus": "Vulpes",
+      "family": "Canidae",
+      "broader_group": "fox"
+    },
+    "is_wild_animal": true,
+    "is_domestic_animal_possible": false,
+    "distress_assessment": {
+      "is_in_distress": true,
+      "distress_confidence": 0.78,
+      "distress_severity": "moderate",
+      "distress_indicators": [
+        "visible limp suggesting leg injury",
+        "matted fur indicating poor grooming/health",
+        "unusually close to human presence without fleeing"
+      ],
+      "distress_category": "injured",
+      "immediate_action_needed": false,
+      "recommended_action": "Contact local wildlife rescue or animal control. Do not attempt to approach or capture the animal yourself. Monitor from a safe distance if possible and note the location to share with rescuers."
+    },
+    "reasoning_summary": "The animal displays characteristic red fox features: reddish-orange fur, pointed ears, and a distinctive bushy tail with a white tip. Body proportions and facial structure are consistent with Vulpes vulpes. Signs of distress observed: the fox appears to have a limp and matted fur, and its proximity to humans suggests it may be injured or ill.",
+    "uncertainty_note": "Species-level confidence is moderate because the image angle is partial and some diagnostic features are not fully visible. Distress assessment based on visible indicators but full extent of injury cannot be determined from image alone.",
+    "safety_note": "Do not approach or attempt to handle wild animals. Foxes can carry rabies and may bite if cornered or in pain. Keep pets and children away. Contact professional wildlife rescue services.",
+    "requires_human_review": true
+  }
+}
